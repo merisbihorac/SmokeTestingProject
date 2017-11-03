@@ -30,8 +30,14 @@ fi
     mkdir target/reports/html
     mkdir target/javaclasses
 
+
+
+
 #Copy the report templates to target directory
 cp -R resources/template/report/* target/reports/html/
+
+
+
 
 echo "\nStarting Tests!!\n"
 # Running the Jmeter Scripts
@@ -41,8 +47,13 @@ for x in $scriptlocation/*.jmx; do
 done
 echo "Test Runs are Over!!"
 
+
+
+
 # Run Report generator Java client
 # cp resources/clients/HTMLReportGenerator.java target/javaclasses
 echo "Generating the Report!!!\n"
 javac -d target/javaclasses resources/clients/HTMLReportGenerator.java
 java -cp target/javaclasses HTMLReportGenerator
+
+# ovov je jos nekih izmjena....
