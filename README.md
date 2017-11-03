@@ -1,10 +1,10 @@
 ### Deployment guide
 
-# Ovo ti je veliki heade
+# Ovo je veliki heade
 
-## ovo ti je manje header
+## ovo  je manje header
 
-### ovo ti je jos manji
+### ovo je jos manji
 
 ## Slijedce je lista
 - elemtn1
@@ -32,11 +32,10 @@
 - [l das dasd asd asdinks](http://wikipedia.org)
 - [ das asd alinks](http://wikipedia.org)
 
-## Ovako cemo ubaciti sliku
+## Ovako se ubacuje slika
 
 ![Slika1](./slike/Slika1.PNG)
 
-Ovo su sad izmjene neke nove koje pravimo ovdje
-
+Neke nove izmjene koje pišemo
 
 ### Steps
